@@ -1,0 +1,6 @@
+@import "./Palette.module.css";
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
