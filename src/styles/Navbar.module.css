@@ -1,6 +1,18 @@
-@import "./Palette.module.css";
+@import './Palette.module.css';
 
-ul {
+.ul {
+  padding: 0.25rem 1rem;
   display: flex;
+  justify-content: flex-start;
   list-style-type: none;
+  gap: 1rem;
+}
+
+.a {
+  color: var(--cornsilk);
+  text-decoration: none;
+}
+
+.right {
+  margin-left: auto;
 }

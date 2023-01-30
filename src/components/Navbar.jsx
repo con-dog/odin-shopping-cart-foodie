@@ -11,17 +11,19 @@ import styles from '../styles/Navbar.module.css'
 export default function Navbar() {
   return (
     <nav>
-      <ul>
+      <ul className={styles.ul}>
         <li>
-          <Link to="/">
+          <Link to="/" className={styles.a}>
             <FontAwesomeIcon icon={solid('house-user')} />
           </Link>
         </li>
         <li>
-          <Link to="/shop">Shop</Link>
+          <Link to="/shop" className={styles.a}>
+            Shop
+          </Link>
         </li>
-        <li>
-          <Link to="/cart">
+        <li className={styles.right}>
+          <Link to="/cart" className={styles.a}>
             <FontAwesomeIcon icon={solid('cart-shopping')} />
           </Link>
         </li>
