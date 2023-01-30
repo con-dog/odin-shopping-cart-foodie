@@ -22,3 +22,12 @@
 .h2 {
   color: var(--cornsilk);
 }
+
+.splash {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  height: 150px;
+  background-color: var(--dark-olive-green);
+  z-index: -1;
+}

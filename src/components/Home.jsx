@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import splashImage from '../images/splash.png'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
           <em>Seriously good food ...</em>
         </h2>
       </div>
+      <img src={splashImage} alt="splash" className={styles.splash} />
     </div>
   )
 }
